@@ -11,7 +11,7 @@ export default () => {
                 params: {
                     limit: 50,
                     term: searchTerm,
-                    location: 'hawaiian gardens'
+                    location: 'cypress'
                 }
             });
             setResults(response.data.businesses);
